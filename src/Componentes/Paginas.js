@@ -6,10 +6,10 @@ import { ProductosLista} from "./Productos/index"
 export const Paginas = () => {
     return (
         <section>
-          
+          <Switch>
             <Route path="/" exact component={Inicio} />
             <Route path="/Productos" exact component={ProductosLista} />
-                
+          </Switch>       
         </section>
        
     )
